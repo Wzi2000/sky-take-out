@@ -10,5 +10,4 @@
       "args": "",
       "envFile": "${workspaceFolder}/.env"
     }
-  ]
-}
+  ]}
