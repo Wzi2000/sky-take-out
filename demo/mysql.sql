@@ -161,7 +161,7 @@ CREATE TABLE `user` (
     `name` varchar(32) COLLATE utf8_bin DEFAULT NULL COMMENT '姓名',
     `phone` varchar(11) COLLATE utf8_bin DEFAULT NULL COMMENT '手机号',
     `sex` varchar(2) COLLATE utf8_bin DEFAULT NULL COMMENT '性别',
-    `id_number` varchar(18) COLLATE utf8_bin DEFAULT NULL COMMENT '身份证号',
+    `id_number` varchar(18) COLLATE utf8_bin DEFAULT NULL COMMENT '身份证',
     `avatar` varchar(500) COLLATE utf8_bin DEFAULT NULL COMMENT '头像',
     `create_time` datetime DEFAULT NULL,
     PRIMARY KEY (`id`)
